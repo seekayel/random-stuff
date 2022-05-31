@@ -1,0 +1,29 @@
+{
+  "name": "template-cyclic-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd nodemon index.js",
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekayel/template-cyclic-starter.git"
+  },
+  "keywords": [],
+  "author": "Kam Lasater <kam.lasater@cyclic.sh>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekayel/template-cyclic-starter/issues"
+  },
+  "homepage": "https://github.com/seekayel/template-cyclic-starter#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
